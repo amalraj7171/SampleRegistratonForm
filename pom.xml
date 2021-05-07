@@ -5,7 +5,7 @@
   <artifactId>SampleRegistrationForm</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>SampleRegistrationForm Maven Webapp</name>
+  <name>SampleRegistrationForm Maven</name>
   <url>http://maven.apache.org</url>
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
