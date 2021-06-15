@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "soulsk8s-7284"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "soulsk8s-7284"
+  template:
+    metadata:
+      labels:
+        app: "soulsk8s-7284"
+    spec:
+      containers:
+        - name: "soulsk8s-7284"
+          image: "projectreg.azurecr.io/soulsk8s"
+          ports:
+          - containerPort: 8080
